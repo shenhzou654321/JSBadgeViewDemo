@@ -5,3 +5,4 @@ JSBadgeViewDemo
 ===============
 
 
+_badgeView.badgePositionAdjustment = CGPointMake(0, 8);  设置徽章的位置，在设置的JSBadgeViewAlignment基础上移动（0，8）
