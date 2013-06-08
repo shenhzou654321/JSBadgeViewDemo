@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4B877E16D4651000058D1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4B877D16D4651000058D1A /* UIKit.framework */; };
+		AC4B878016D4651000058D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4B877F16D4651000058D1A /* Foundation.framework */; };
+		AC4B878216D4651000058D1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4B878116D4651000058D1A /* CoreGraphics.framework */; };
+		AC4B878816D4651000058D1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC4B878616D4651000058D1A /* InfoPlist.strings */; };
+		AC4B878A16D4651000058D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4B878916D4651000058D1A /* main.m */; };
+		AC4B878E16D4651000058D1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4B878D16D4651000058D1A /* AppDelegate.m */; };
+		AC4B879016D4651000058D1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4B878F16D4651000058D1A /* Default.png */; };
+		AC4B879216D4651000058D1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4B879116D4651000058D1A /* Default@2x.png */; };
+		AC4B879416D4651000058D1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4B879316D4651000058D1A /* Default-568h@2x.png */; };
+		AC4B87A016D4653F00058D1A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4B879F16D4653F00058D1A /* RootViewController.m */; };
+		AC4B87A416D4670A00058D1A /* JSBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4B87A316D4670A00058D1A /* JSBadgeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC4B877916D4651000058D1A /* JSBadgeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBadgeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4B877D16D4651000058D1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC4B877F16D4651000058D1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC4B878116D4651000058D1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC4B878516D4651000058D1A /* JSBadgeViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSBadgeViewDemo-Info.plist"; sourceTree = "<group>"; };
+		AC4B878716D4651000058D1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC4B878916D4651000058D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC4B878B16D4651000058D1A /* JSBadgeViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSBadgeViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AC4B878C16D4651000058D1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC4B878D16D4651000058D1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC4B878F16D4651000058D1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AC4B879116D4651000058D1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AC4B879316D4651000058D1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC4B879E16D4653F00058D1A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AC4B879F16D4653F00058D1A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AC4B87A216D4670A00058D1A /* JSBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBadgeView.h; sourceTree = "<group>"; };
+		AC4B87A316D4670A00058D1A /* JSBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBadgeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4B877616D4651000058D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4B877E16D4651000058D1A /* UIKit.framework in Frameworks */,
+				AC4B878016D4651000058D1A /* Foundation.framework in Frameworks */,
+				AC4B878216D4651000058D1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4B876E16D4651000058D1A = {
+			isa = PBXGroup;
+			children = (
+				AC4B878316D4651000058D1A /* JSBadgeViewDemo */,
+				AC4B877C16D4651000058D1A /* Frameworks */,
+				AC4B877A16D4651000058D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4B877A16D4651000058D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B877916D4651000058D1A /* JSBadgeViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4B877C16D4651000058D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B877D16D4651000058D1A /* UIKit.framework */,
+				AC4B877F16D4651000058D1A /* Foundation.framework */,
+				AC4B878116D4651000058D1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC4B878316D4651000058D1A /* JSBadgeViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B878C16D4651000058D1A /* AppDelegate.h */,
+				AC4B878D16D4651000058D1A /* AppDelegate.m */,
+				AC4B879E16D4653F00058D1A /* RootViewController.h */,
+				AC4B879F16D4653F00058D1A /* RootViewController.m */,
+				AC4B87A216D4670A00058D1A /* JSBadgeView.h */,
+				AC4B87A316D4670A00058D1A /* JSBadgeView.m */,
+				AC4B878416D4651000058D1A /* Supporting Files */,
+			);
+			path = JSBadgeViewDemo;
+			sourceTree = "<group>";
+		};
+		AC4B878416D4651000058D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B878516D4651000058D1A /* JSBadgeViewDemo-Info.plist */,
+				AC4B878616D4651000058D1A /* InfoPlist.strings */,
+				AC4B878916D4651000058D1A /* main.m */,
+				AC4B878B16D4651000058D1A /* JSBadgeViewDemo-Prefix.pch */,
+				AC4B878F16D4651000058D1A /* Default.png */,
+				AC4B879116D4651000058D1A /* Default@2x.png */,
+				AC4B879316D4651000058D1A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4B877816D4651000058D1A /* JSBadgeViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4B879716D4651000058D1A /* Build configuration list for PBXNativeTarget "JSBadgeViewDemo" */;
+			buildPhases = (
+				AC4B877516D4651000058D1A /* Sources */,
+				AC4B877616D4651000058D1A /* Frameworks */,
+				AC4B877716D4651000058D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSBadgeViewDemo;
+			productName = JSBadgeViewDemo;
+			productReference = AC4B877916D4651000058D1A /* JSBadgeViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4B877016D4651000058D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "周兴龙";
+			};
+			buildConfigurationList = AC4B877316D4651000058D1A /* Build configuration list for PBXProject "JSBadgeViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC4B876E16D4651000058D1A;
+			productRefGroup = AC4B877A16D4651000058D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4B877816D4651000058D1A /* JSBadgeViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4B877716D4651000058D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4B878816D4651000058D1A /* InfoPlist.strings in Resources */,
+				AC4B879016D4651000058D1A /* Default.png in Resources */,
+				AC4B879216D4651000058D1A /* Default@2x.png in Resources */,
+				AC4B879416D4651000058D1A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4B877516D4651000058D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4B878A16D4651000058D1A /* main.m in Sources */,
+				AC4B878E16D4651000058D1A /* AppDelegate.m in Sources */,
+				AC4B87A016D4653F00058D1A /* RootViewController.m in Sources */,
+				AC4B87A416D4670A00058D1A /* JSBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC4B878616D4651000058D1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4B878716D4651000058D1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4B879516D4651000058D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC4B879616D4651000058D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4B879816D4651000058D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSBadgeViewDemo/JSBadgeViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JSBadgeViewDemo/JSBadgeViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC4B879916D4651000058D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSBadgeViewDemo/JSBadgeViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JSBadgeViewDemo/JSBadgeViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4B877316D4651000058D1A /* Build configuration list for PBXProject "JSBadgeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4B879516D4651000058D1A /* Debug */,
+				AC4B879616D4651000058D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4B879716D4651000058D1A /* Build configuration list for PBXNativeTarget "JSBadgeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4B879816D4651000058D1A /* Debug */,
+				AC4B879916D4651000058D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4B877016D4651000058D1A /* Project object */;
+}
